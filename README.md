@@ -11,17 +11,21 @@ See [https://engineering.linkedin.com/blog/2018/12/developer-program-updates]
 
 ## Installation
 See the [installation instructions on pub](https://pub.dartlang.org/packages/flutter_linkedin_login#-installing-tab-)
-For iOS 12 compatibility:
 
-Add: 
+
+# NOTE:
+For iOS 12 compatibility:
+- Add:
+```xml
 <key>LSApplicationQueriesSchemes</key>
 <array>
     <string>linkedin</string>
     <string>linkedin-sdk2</string>
     <string>linkedin-sdk</string>
 </array>
-
+```
 On top of yours keys in Info.plist file of your app
+
 
 ### Android
 Follow the "Associate your Android app with your LinkedIn app" section of LinkedIn's
