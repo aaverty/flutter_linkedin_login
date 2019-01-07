@@ -49,7 +49,7 @@ NSString *const URL = @"https://api.linkedin.com/v1/people/~:(id,first-name,last
         [LISDKSessionManager
          createSessionWithAuth:[NSArray arrayWithObjects:LISDK_BASIC_PROFILE_PERMISSION, LISDK_EMAILADDRESS_PERMISSION, nil]
          state:nil
-         showGoToAppStoreDialog:YES
+         showGoToAppStoreDialog:NO
          successBlock:^(NSString *returnState) {
              //NSLog(@"%s","success called!");
              result(@"Logged in");
